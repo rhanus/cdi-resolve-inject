@@ -1,6 +1,10 @@
 # Directories
 build/
 
+# Gradle
+.gradle/
+gradle.properties
+
 # IDEA
 *.iml
 *.ipr
