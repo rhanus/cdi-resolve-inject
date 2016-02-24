@@ -1,0 +1,8 @@
+# Directories
+build/
+
+# IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
