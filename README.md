@@ -1,5 +1,5 @@
-Resolve the injection from a system property maintaining a type information
-===========================================================================
+Resolve an injection from system property which maintains a type information
+============================================================================
 ## Motivation
 Recently I was asked to help on a project migrating from jdk6/spring3/tomcat7 to jdk8/javaee7/wildlfy9
 to figure out how to replace a specific Spring feature for which there is no direct replacement in Java EE.
