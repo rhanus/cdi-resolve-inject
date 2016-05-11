@@ -11,7 +11,7 @@
             <property name="jbossHome">${jboss.home}</property>
             <property name="serverConfig">standalone.xml</property>
             <property name="jbossArguments">-P=src/test/resources/greeting.properties</property>
-            <property name="javaVmArguments">-Xms512M -Xmx512M -XX:MetaspaceSize=256M -XX:MaxMetaspaceSize=256M -Djava.net.preferIPv4Stack=true -Djboss.server.base.dir=${jboss.home}/standalone-test -Djboss.socket.binding.port-offset=1000</property>
+            <property name="javaVmArguments">-Xms128M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256M -Djava.net.preferIPv4Stack=true -Djboss.server.base.dir=${jboss.home}/standalone-test -Djboss.socket.binding.port-offset=1000</property>
             <property name="managementPort">10990</property>
             <property name="allowConnectingToRunningServer">false</property>
         </configuration>
