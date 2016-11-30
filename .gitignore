@@ -1,12 +1,8 @@
-# Directories
-build/
+# maven
+target/
 
-# Gradle
-.gradle/
-gradle.properties
-
-# IDEA
+# IntelliJ IDEA
+.idea/
 *.iml
 *.ipr
 *.iws
-.idea/
